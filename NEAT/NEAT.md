@@ -14,6 +14,7 @@
 - if a new node is added, it is placed between two nodes that are already connected
 - The previous connection is disabled(though still present in the genome)
 - The previous start node is linked to the new node with the weight of the old connection and the new node is linked to the previous and node with a weight of 1
+- Mutation은 Link, Trait에서 발생
 
 ### Competing Conventions
 
@@ -44,4 +45,3 @@
 - 최소한의 node와 connection으로 시작하는 알고리즘을 구축해 useful하고 necessary하다고 판단될 경우만 시간에 따라 complexity가 진화하도록 하는 것
 - sets up their algorithm to evolve minimal networks by starting all networks with no hidden nodes
 - Each individual in the initial population is simply input nodes, output nodes, and a series of connection genes between them
-
